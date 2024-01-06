@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es5",                           // Specify ECMAScript target version
+      "module": "commonjs",                      // Specify module code generation
+      "lib": ["es2015", "dom"],                   // Include 'es2015' and 'dom' library files
+      "strict": true,                            // Enable all strict type-checking options
+      "esModuleInterop": true,                   // Enables compatibility with default imports
+      "skipLibCheck": true,                      // Skip type checking of all declaration files
+      "outDir": "./",                            // Redirect output structure
+      "forceConsistentCasingInFileNames": true  // Disallow inconsistently-cased references
+    },
+    "include": ["*.ts"],                          // Files to be included in compilation
+    "exclude": ["node_modules"]                   // Directories to be excluded from compilation
+  }
+  

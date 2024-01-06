@@ -1,0 +1,40 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.env
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Prefect
+.prefect/
+
+# Logs
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Python distribution
+dist/
+build/
+*.egg-info/
+
+# Local configuration files
+*.local
+
+# pytest cache
+.cache
+.pytest_cache/
+
+# mypy cache
+.mypy_cache/
