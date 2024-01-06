@@ -6,6 +6,8 @@ FROM node:latest
 # Set the working directory
 WORKDIR /app
 
+RUN apt-get update
+
 # Copy package.json and install dependencies
 COPY package.json .
 RUN npm install
